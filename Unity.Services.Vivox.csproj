@@ -1,0 +1,1674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{96B7A5CA-6CFC-23A4-8BA0-CB55CA2BA92A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.Services.Vivox</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_45;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;READY_PLAYER_ME;USE_STICK_CONTROL_THUMBSTICKS;AUTH_PACKAGE_PRESENT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2022.3.45f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="E:\Unity\Zhang\Multiplayer Social Sharing VR\Library\PackageCache\com.unity.transport@2.3.0\Analyzers\Unity.Transport.Analyzers.dll" />
+    <Analyzer Include="E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_add_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_conversation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_send_subscription_reply.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_tts_utterance_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Scheduler\ThreadHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_set_vad_properties.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_send_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_channel_remove_acl_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_set_tx_all_sessions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_buddy_contact_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vxa_render_device_stats_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_list_auto_accept_rules.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_channel_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_get_conversations_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_play_audio_buffer_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_participant_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\AccountId.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\ErrorMitigation\RetryPolicy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_chat_history_get_last_read.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_message_base.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_authtoken_login.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_channel_ban_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Common\ReadWriteQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_vx_participant_diagnostic_state_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_archive_query.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\WebGL\AudioOutputDevicesWeb.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_delete_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_session_media_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_control_communications_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\ResponseDeserializationException.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_user_channel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_connectivity_info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_render_audio_stop_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_channel_get_banned_users_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_send_notification_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_text_disconnect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_safe_voice_update_consent_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_channel_mute_user.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_anonymous_login_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_set_participant_mute_for_me.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_p_q_const__char__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_set_local_render_volume.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Models\VivoxMessage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_conversation_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_media_disconnect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_media_disconnect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\IVivoxTokenProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_request_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\ND_TEST_TYPE.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\IsolatedJsonConvert.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_udp_frame_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_get_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_set_session_3d_position_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Options\ChannelOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_set_vad_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_buddy_delete_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_set_vad_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_chat_history_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_edit_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_send_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_codec.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_participant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_set_participant_volume_for_me_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_vxd.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\ITextMessage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_set_capture_device_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_render_audio_modify_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_set_voice_font.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_capture_audio_stop_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_session.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_unset_focus_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_add_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\LoginSession.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_safe_voice_update_consent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_char.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_aux_audio_properties_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_channel_mute_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_list_buddies_and_groups_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_sessiongroup_audio_injection_control_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_connector_get_local_audio_info.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_connector_set_local_mic_volume.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_list_block_rules.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_buddy_set_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\ChannelSession.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_create_auto_accept_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\ITextToSpeech.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_change_type_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_subscription_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_delete_message.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_control_audio_injection_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_get_session_fonts.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_list_auto_accept_rules_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_buddy_delete_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_channel_invite_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_attempt_stun.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\IHttpClient.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\ErrorMitigation\RetryPolicyConfig.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_archive_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_application_state_notification_type_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_get_capture_devices_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_global_monitor_keyboard_mouse_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_login_state_change_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_post_crash_dump_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_connector_set_local_speaker_volume.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Options\ChatHistoryQueryOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\IVivoxService.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_set_tx_all_sessions_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_set_mic_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_base_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_deactivate_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_control_audio_injection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_get_mic_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_text_connect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_sessiongroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_voice_service_connection_state_changed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_tts_status.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_set_session_3d_position_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_set_capture_device_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_create_block_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_capture_audio_stop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_diagnostic_state_dump.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_participant_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_presence_updated_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_network_message_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IParticipant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IChatHistoryQueryResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_send_notification_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_control_communications.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_device_type_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_send_subscription_reply_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Models\IVivoxAudioDevice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_set_render_device_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_network_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_channel_kick_user.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\AudioDevice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_connector_set_local_mic_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_connector_get_local_audio_info_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\PresenceSubscription.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_buddy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_channel_get_banned_users_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_channel_get_acl_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_audiosource_operation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_message_base_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_set_3d_position_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vxa_capture_device_stats_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_authtoken_login_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_send_user_app_data_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_call_stats_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_channel_get_banned_users.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_event_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_edit_message.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\DeserializationException.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_account_archive_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_set_tx_no_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_control_audio_injection_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxPackageInitializer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_channel_set_lock_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_send_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\ErrorMitigation\IRetryPolicy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxServiceInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_set_voice_font_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_send_dtmf_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_get_render_devices_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_connectivity_test_result_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_channel_invite_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_crash_test_type_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_chat_history_get_last_read_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_connector_mute_local_speaker_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_get_stats_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_set_focus_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_channel_remove_acl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_get_conversations.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_list_block_rules_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\AudioFadeModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\ILoginSession.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_voice_font.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_device.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_channel_lock_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_set_local_render_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_get_speaker_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Options\MessageOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_set_derumbler_properties.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_archive_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_set_render_device_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_notify_application_state_change_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_reset_password_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\DirectedMessageResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_participant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_archive_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_get_session_fonts_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_group.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_update_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_session_handle_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\TextToSpeech.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\IDeserializable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_system_stats_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\ArchiveQueryResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_send_dtmf_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_set_participant_volume_for_me_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_session_answer_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_server_app_data_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_set_participant_mute_for_me_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_safe_voice_get_consent_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_auto_accept_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IPresenceSubscription.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_channel_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_account_login_state_change_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_delete_block_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_get_stats_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IKeyedItemNotifyPropertyChanged.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_device_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_channel_add_acl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\HttpClientResponse.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_send_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_delete_auto_accept_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_control_communications_operation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\req_disposition_type_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_get_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_edit_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_set_render_device.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_list_block_rules_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IReadOnlyHashSet.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\VxClient.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_connector_mute_local_mic_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_channel_kick_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Scheduler\EngineStateHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_connector_create.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\ND_ERROR.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_get_derumbler_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Options\ConversationQueryOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_login_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_sessiongroup_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_message_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_int__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_create_block_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_get_conversations_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\HttpException.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_set_speaker_level.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_logout_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_set_tx_session.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_backend_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_connector_create_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_channel_change_owner_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_connector_mute_local_speaker_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_chat_history_set_marker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_channel_get_acl_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_connectivity_test_result.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_text_disconnect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Exceptions\MintExceptionCode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_connector_create_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Models\VivoxConversation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_reactivate_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_buddy_contact.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_set_tx_all_sessions_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AudioTaps\VivoxCaptureSourceTap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\JsonHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_channel_mute_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\WebGL\ChannelSessionWeb.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_buddy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\VivoxCoreInstancePINVOKE.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_transcribed_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_channel_kick_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_sessiongroup_updated_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_opus_vbr_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_set_participant_volume_for_me.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\TTSVoice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_get_vad_properties.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_group.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_tts_voice_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_presence_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_reset_password_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_user_channel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_start_buffer_capture_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_send_subscription_reply_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_get_derumbler_properties.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_channel_ban_user.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_media_connect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IAudioDevices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_terminate_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\TextToSpeechMessageType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_post_crash_dump.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_tts_voice_list_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_mute_scope.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_buddy_delete.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_channel_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_get_speaker_level.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IReadOnlyDictionary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_set_presence_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_create_block_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_conversation_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_edit_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_buddy_contact.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_create_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_safe_voice_get_consent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_mute_local_speaker_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_notification_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_sessiongroup_playback_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_sessiongroup_removed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_chat_history_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_get_template_fonts_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_session_notification_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_device.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_name_value_pair.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_safe_voice_update_consent_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Models\VivoxOutputDevice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_get_stats.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_play_audio_buffer_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\IVivoxServiceInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_path_id.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_auto_accept_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_capture_audio_stop_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_font_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_connection_state_changed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_set_tx_no_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\ResponseHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_channel_mute_all_users.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_set_local_render_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\BluetoothProfile.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_participant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_p_q_const__char_p_q_const__char_p_short_int_int_int__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_enum_vx_udp_frame_type_p_void_int_p_void_int_p_void_int_int__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_base_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_chat_history_query.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_delete_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_create_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_channel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_deactivate_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_channel_set_lock_mode_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IPresenceLocation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AudioTaps\VivoxParticipantTap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_short.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Helper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_post_crash_dump_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_set_presence_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_channel_add_acl_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_conversation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_list_auto_accept_rules_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_global_monitor_keyboard_mouse.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_size_t__p_void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\DeserializationSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_delete_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_response_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_dtmf_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_render_audio_stop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_render_audio_start_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_sessiongroup_added_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_chat_history_query.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_archive_query_end_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_tts_injection_failed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_connector_mute_local_mic_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_deactivate_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_render_audio_start_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\TTSMessage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_delete_auto_accept_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_get_session_fonts_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_stat_sample_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_account_delete_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_size_t__p_void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Client.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_transcription_control_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_p_q_const__char_p_q_const__char_p_vx_before_recv_audio_mixed_participant_data_t_size_t__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_set_derumbler_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_stt_failed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_web_call.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_tts_engine_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Exceptions\MintException.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Enums.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_keyboard_mouse_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_set_tx_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_get_render_devices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_send_notification.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_int.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\UnityWebRequestHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\ChannelParticipant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_voice_font_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_sessiongroup_playback_frame_played_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_send_user_app_data_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_send_dtmf.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_set_participant_mute_for_me_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_send_sms_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Common\ReadWriteHashSet.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_channel_ban_user_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_delete_block_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_block_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_unset_focus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\ErrorMitigation\StatusCodePolicyConfig.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Common\ReadWriteDictionary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_reset_focus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_web_call_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_set_tx_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_unset_focus_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\VxTokenGen.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_create.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_set_mic_level.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_audio_device_hot_swap_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_auto_accept_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_channel_mute_all_users_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_edit_message.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\JsonObject.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Apis\DefaultApi.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_set_idle_timeout.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_tts_injection_started_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_channel_invite_user.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_p_void_size_t__int.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_connector_set_local_speaker_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_delete_message.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_transcription_control.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_get_capture_devices_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_set_login_properties.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_block_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_channel_mute_all_users_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\TransmissionMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IReadOnlyQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_anonymous_login_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_set_idle_timeout_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_set_idle_timeout_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\orientation_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_channel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_play_audio_buffer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_render_audio_start.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_participant_removed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_connectivity_test_result.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\BaseApiClient.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_enum_vx_log_level_p_q_const__char_p_q_const__char__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_terminate_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_reset_focus_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_connector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_account_edit_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Apis\DefaultApiRequests.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\HttpClient.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AudioTaps\VivoxAudioTap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_channel_set_lock_mode_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_mute_local_speaker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_edit_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_create_auto_accept_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_set_presence.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_termination_status.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Models\VivoxParticipant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_chat_history_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_group_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_anonymous_login.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_font_status.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_idle_state_changed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_control_communications_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_chat_history_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IDirectedMessageResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_notification_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_message_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\MessagePump.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_login_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_list_buddies_and_groups.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_list_buddies_and_groups_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_tts_injection_ended_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_participant_updated_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_connector_mute_local_speaker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Utils\InitializationOptionsExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_terminate_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_transcription_control_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_connector_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_audio_device_hot_swap_event_type_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_session.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_voice_font.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_buddy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_connectivity_info_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Models\VivoxMintIOneOf.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_send_sms_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\AsyncResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_buddy_group_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\TextMessage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_block_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_connector_mute_local_mic.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_name_value_pair.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_logout.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\VivoxApiException.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\IOSVoiceProcessingIOModes.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_void__int.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_updated_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\WebGL\LoginSessionWeb.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_buddy_and_group_list_changed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Options\LoginOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_create_auto_accept_rule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_set_tx_no_session.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Channel3DProperties.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_vxd_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_buddy_management_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_create_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_connection_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_text_mode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_send_sms.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_log_level.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_create_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\VXA_ERROR_CODES.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_opus_bandwidth.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_set_local_speaker_volume.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_render_audio_modify_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_connector_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_send_message.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_connector_initiate_shutdown_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_get_template_fonts.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_sessiongroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_buddy_presence_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_create_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_create.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IArchiveQueryResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_before_recv_audio_mixed_participant_data_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\WebGL\AudioInputDevicesWeb.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_get_vad_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\ParticipantPropertyUpdateFrequency.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\ChatCapability.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_channel_add_acl_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_sessiongroup_playback_control_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_short.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_set_speaker_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxService.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_channel_change_owner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_user_to_user_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Presence.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_update_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\JsonObjectConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_capture_audio_start.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_vx_tts_utterance_impl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_safe_voice_get_consent_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_archive_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_set_mic_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\PresenceLocation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_aux_audio_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_participant.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_create_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_added_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Models\VivoxInputDevice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_session_removed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_get_capture_devices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AudioTaps\VivoxAudioProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_media_connect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_name_value_pair_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_send_user_app_data.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_global_monitor_keyboard_mouse_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_delete_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_buddy_changed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_log_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_subscription_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_start_buffer_capture_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_set_3d_position_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_recording_frame_type_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_channel_get_acl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_connector_set_local_mic_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_enum_vx_udp_frame_type_p_void_int_p_p_void_p_int_p_p_void_p_int__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_get_mic_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_reset_password.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IAccessTokenServer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_participant_diagnostic_state_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_char.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_set_voice_font_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_session_text_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_delete_auto_accept_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_tts_destination.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_text_disconnect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_q_const__char_p_q_const__char_p_q_const__char__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_buddy_group_changed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\ChannelId.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_render_audio_modify.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_password_hash_algorithm_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_rule_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_web_call_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_chat_history_set_marker_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_media_disconnect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_set_focus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_channel_rolloff_curve_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_user_channel_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_capture_audio_start_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_start_buffer_capture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_authtoken_login_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_login.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_stat_thread_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_user_app_data_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_media_completion_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\AudioOutputDevices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_media_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_diagnostic_state_dump_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_buddy_presence_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_sessiongroup_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_sessiongroup_recording_control_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_get_render_devices_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_get_vad_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_render_audio_stop_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Options\VivoxConfigurationOptions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_account_send_message_failed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_terminate.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_set_focus_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IAudioDevice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_p_q_const__char_p_q_const__char__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Core\VivoxComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_archive_query_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_buddy_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_base_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_publication_state_changed_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\VivoxLogLevel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_notify_application_state_change_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_participant_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_set_local_speaker_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_logout_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\ChatHistoryQueryResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_edit_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_diagnostic_dump_level.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\VivoxCoreInstance.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IParticipantProperties.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_set_session_3d_position.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_capture_audio_start_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_set_speaker_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_get_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_text_connect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\Private\AudioInputDevices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_diagnostic_state_dump_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\IChannelSession.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_size_t_size_t__p_void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_participant_removed_reason.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AudioTapBridge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_get_template_fonts_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_f_p_void_p_q_const__char_p_q_const__char_p_short_int_int_int_int__void.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_update_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_channel_change_owner_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_sdk_config_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_publication_state_change_state.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Models\MintErrorStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_remove_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_media_stream_updated_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_add_session.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_generic_credentials.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_remove_session.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_mute_local_speaker_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_buddy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_set_capture_device.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_time_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_buddy_group.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_create_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_get_derumbler_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_reactivate_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_connector_get_local_audio_info_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\ITTSVoice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_account_archive_query_end_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AudioTaps\VivoxCaptureSinkTap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_delete_block_rule_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_remove_session_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Utils\VivoxLogger.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_aux_connectivity_info_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_set_login_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_p_vx_state_connector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_buddy_set_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_send_message.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_sessiongroup_terminate.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_set_login_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_set_3d_position.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_participant_added_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_media_completion_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_sessiongroup_terminate_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_account_buddy_set.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_get_speaker_level_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_channel_search_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_sessiongroup_reset_focus_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_archive_query.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_bluetooth_profile.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\Responses.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_notify_application_state_change.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_double.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\VXA_CAPTURE_FLAGS.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_get_mic_level.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_channel_moderation_type.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_session_delete_message_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_aux_reactivate_account.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_state_buddy_group.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_account_channel_remove_acl_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Http\AsyncOpRetry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_chat_history_get_last_read_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_media_ringback.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_buddy_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_set_local_speaker_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_state_account_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\AudioTaps\VivoxChannelAudioTap.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_aux_set_derumbler_properties_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SDK\Enums\ConversationType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_evt_text_stream_updated_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_tts_utterance.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_connector_initiate_shutdown_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\VivoxUnity\VxUnityInterop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_connector_set_local_speaker_volume_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_session_text_connect.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_resp_session_media_connect_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\vx_req_account_chat_history_set_marker_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Generated\Configuration\Configuration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_size_t.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\SWIG\SWIGTYPE_p_p_vx_req_connector_initiate_shutdown.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.services.vivox@16.5.0\Runtime\Unity.Services.Vivox.asmdef" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library\PackageCache\com.unity.services.wire@1.2.6\Plugins\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@2.2.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{08D9CA0C-EECD-8146-E8F7-680A08842A90}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Internal.csproj">
+      <Project>{97EEAF28-97C5-FFE6-565D-28817CD2DCCC}</Project>
+      <Name>Unity.Services.Core.Internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Authentication.csproj">
+      <Project>{82E9C24C-2F2F-4307-781E-A8C2A5A11B42}</Project>
+      <Name>Unity.Services.Authentication</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{232382F0-61CA-F4F3-F386-155B00A6A255}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{F70982F7-3B09-1653-CB5F-666B0082BA89}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
