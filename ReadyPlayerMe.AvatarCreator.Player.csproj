@@ -114,6 +114,7 @@
     <Compile Include="Assets\Ready Player Me\Core\Runtime\AvatarCreator\Scripts\WebRequests\AuthAPIRequests.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\AvatarCreator\Scripts\AvatarTemplateFetcher.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\AvatarCreator\Scripts\WebRequests\Responses\UserAvatarsResponse.cs" />
+    <Compile Include="Assets\Ready Player Me\Core\Runtime\AvatarCreator\Scripts\Data\CreatedUser.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\AvatarCreator\Scripts\Utils\Rotation\MouseRotationHandler.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\AvatarCreator\Scripts\JsonConverters\AuthDataConverter.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\AvatarCreator\Scripts\Managers\PartnerAssetsManager.cs" />

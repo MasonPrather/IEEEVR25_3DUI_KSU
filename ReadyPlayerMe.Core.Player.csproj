@@ -121,6 +121,7 @@
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Extensions\TransformExtensions.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Caching\AvatarManifest.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Utils\AvatarAnimationHelper.cs" />
+    <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Utils\DestroyMesh.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Utils\RenderSettingsHelper.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Caching\AvatarCache.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Logger\SDKLogger.cs" />
