@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D9B993A7-3870-A74A-3501-A150FA3B0E69}</ProjectGuid>
+    <ProjectGuid>{E2FF08AB-5CEB-7D3D-B297-19177854050B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\Player\</OutputPath>
-    <DefineConstants>UNITY_2022_3_45;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;READY_PLAYER_ME;USE_STICK_CONTROL_THUMBSTICKS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_45;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;READY_PLAYER_ME;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Unity\Zhang\Multiplayer Social Sharing VR\Library\PackageCache\com.unity.transport@2.3.0\Analyzers\Unity.Transport.Analyzers.dll" />
+    <Analyzer Include="E:\Unity\Zhang\IEEEVR25_3DUI_KSU\Library\PackageCache\com.unity.transport@2.3.0\Analyzers\Unity.Transport.Analyzers.dll" />
     <Analyzer Include="E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -91,259 +91,259 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.AIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.ARModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.AnimationModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.AudioModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.ClothModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ContentLoadModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ContentLoadModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.ContentLoadModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.DirectorModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GIModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.GIModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.GIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.GameCenterModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GridModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.GridModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.GridModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.HotReloadModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.InputModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.LocalizationModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.PhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.Physics2DModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.ProfilerModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PropertiesModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.PropertiesModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.PropertiesModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.StreamingModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.StreamingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.SubstanceModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TLSModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TLSModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TerrainModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextCoreTextEngineModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.TilemapModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UIElementsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UmbraModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityCurlModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.VFXModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.VRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.VehiclesModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.VideoModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.WindModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.WindModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="websocket-sharp">
@@ -848,220 +848,264 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UnityEngine.Purchasing.Stores.Player.csproj">
+      <Project>{BD87D962-CB59-F27E-0A7D-B1E63BC3066C}</Project>
+      <Name>UnityEngine.Purchasing.Stores.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Player.csproj">
-      <Project>{4BB45E51-867D-4AED-86F4-435681D40298}</Project>
+      <Project>{98270431-5CC5-60C0-F892-4DC67CEF3E46}</Project>
       <Name>Unity.XR.Hands.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{989FE5B2-3470-4B1B-4600-864F48629C4C}</Project>
+      <Project>{E6F7E4DA-D41C-C5F6-5C83-AFCE67CD2D23}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Networking.Transport.Player.csproj">
-      <Project>{79EB81CC-49FF-39DE-928D-327238A4D768}</Project>
+      <Project>{ED812196-76FA-4188-DE6D-300A3BA3B799}</Project>
       <Name>Unity.Networking.Transport.Player</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.Player.csproj">
-      <Project>{E2A3BB80-4153-31A2-37CD-9194775DF668}</Project>
+      <Project>{0CA2984F-0E04-4A50-57FA-465B643D51A0}</Project>
       <Name>ReadyPlayerMe.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.Player.csproj">
-      <Project>{DB6CFC89-5717-3048-07E4-568D35DEA1E0}</Project>
+      <Project>{8487943A-C088-18FC-9605-A8D0114CB5E8}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorWizard.Player.csproj">
-      <Project>{9FF692FF-8043-8D5F-FDB6-27E944F69080}</Project>
+      <Project>{C69DEC84-5D66-9A76-1755-D9AF91AFE28D}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarCreatorWizard.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Player.csproj">
-      <Project>{374D3764-FDA5-D9D1-9BA7-324C04681290}</Project>
+      <Project>{69B4B4A1-8067-40AE-5755-652034B08B3D}</Project>
       <Name>Unity.XR.OpenXR.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Relay.Player.csproj">
-      <Project>{C5B67C9A-9E08-08DF-BEDB-95D1BAA5AFEB}</Project>
+      <Project>{36FBA4D8-C468-988D-2C87-6818B1B4C485}</Project>
       <Name>Unity.Services.Relay.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Player.csproj">
-      <Project>{8D997880-6E1E-45AC-AD58-95C8051C973B}</Project>
+      <Project>{F1A0AC35-C09C-5831-9A95-5FE205FD75A3}</Project>
       <Name>Unity.XR.OpenXR.Features.MetaQuestSupport.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.Player.csproj">
+      <Project>{8673825C-92DC-CD16-1186-A2409D3CC841}</Project>
+      <Name>UnityEngine.Purchasing.SecurityCore.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
-      <Project>{D4FF8034-8CDD-17FA-7C35-4899C866ABAB}</Project>
+      <Project>{EE2D2239-CDBC-D993-9AB7-B86E8B3294BB}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.Player.csproj">
-      <Project>{2C25211B-3365-9010-964B-166BBE7DDC32}</Project>
+      <Project>{C58E108E-BD83-EB90-10DC-05813966E97B}</Project>
       <Name>Unity.Collections.Player</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.QuickStart.Player.csproj">
-      <Project>{E86F4844-6DA5-4E6D-FEFD-4F368E7F70CF}</Project>
+      <Project>{3BEE08AE-5988-EF34-B249-DEA237BC0B24}</Project>
       <Name>ReadyPlayerMe.Samples.QuickStart.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{FC32182E-2A86-93AF-6C92-BDAD94F86101}</Project>
+      <Project>{B1453D14-8CE9-3955-9B02-542ABD3CF058}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Player.csproj">
-      <Project>{29D1230A-C43A-FDE2-980A-272DEE620968}</Project>
+      <Project>{C850C12E-7BF0-6421-E800-76C1491D36B8}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Player.csproj">
+      <Project>{AE9B450B-4146-8D4D-898E-9503186AE627}</Project>
+      <Name>UnityEngine.Purchasing.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
-      <Project>{8954452C-F8E5-00BA-E1F2-A6F459C253A2}</Project>
+      <Project>{0383D464-C86E-5F92-F0B1-DA8ABB2BBD17}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{6C4E9ECB-3C87-9FF3-B185-E125EEA99B7B}</Project>
+      <Project>{6224CF53-B84E-D21F-7515-2CFD7C14BC71}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Player.csproj">
-      <Project>{33F8E45A-F549-3188-17AF-7C63253D3F12}</Project>
+      <Project>{0F080EDC-28D2-217A-8C89-7BFAA66C623B}</Project>
       <Name>Unity.Tutorials.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj">
-      <Project>{7627E816-E3A7-19CE-1DFA-BED245982F26}</Project>
+      <Project>{5AC0FABB-8F49-D353-8FAE-D83E31B59F3F}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
-      <Project>{70875C59-ED64-5166-3A7B-18923D06EE8E}</Project>
+      <Project>{ADB531B5-0EF6-8AE3-56E9-866DA74FB97C}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.AvatarCreator.Player.csproj">
-      <Project>{2632348F-E59E-EE0C-ABAD-F485D6770B84}</Project>
+      <Project>{3DA5B79C-EC33-E407-A2C1-E1F039ED710C}</Project>
       <Name>ReadyPlayerMe.AvatarCreator.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.ForUI.Player.csproj">
-      <Project>{EFF4B6F5-625E-8FC0-B17C-39EA5AA3938B}</Project>
+      <Project>{CE500FD9-9195-661E-31C4-DE92A34ABACC}</Project>
       <Name>Unity.InputSystem.ForUI.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
+      <Project>{DD6E1C1F-E637-C0D1-94B2-1631A5C8AA6C}</Project>
+      <Name>Unity.Services.Analytics.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Lobbies.Player.csproj">
-      <Project>{A863ABAC-099C-7716-3A79-FDFF2A9F94F9}</Project>
+      <Project>{5E906807-591F-D76C-02DF-5ECA72CDF5CF}</Project>
       <Name>Unity.Services.Lobbies.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
-      <Project>{1F68BA41-5581-70E7-87E1-4DDE531232CA}</Project>
+      <Project>{CEBD5208-D92D-71AA-3EED-B1763577789D}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
     </ProjectReference>
     <ProjectReference Include="glTFast.dots.Player.csproj">
-      <Project>{7879D25B-C4D7-585A-DEE7-F6EAA56FF0C6}</Project>
+      <Project>{F848F223-3AC3-9660-777B-4EC4CF638D96}</Project>
       <Name>glTFast.dots.Player</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorElements.Player.csproj">
-      <Project>{AB5DB606-2D0D-1EA3-A607-B2AAEDBDC24A}</Project>
+      <Project>{20ACC013-ACA6-8A2E-771F-122376B8A200}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarCreatorElements.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
-      <Project>{E108680B-E091-A1A9-9694-EE66E9D3E9D3}</Project>
+      <Project>{415C31FD-CB31-CCB3-8757-958D358B61D9}</Project>
       <Name>Unity.XR.Management.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{DDDA1916-E85F-5A7E-D9D9-C9C93C8A3016}</Project>
+      <Project>{58A3AA08-F3B5-31F4-5617-646952DD1791}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
+      <Project>{28D72A3E-C583-F7EB-5216-8EA7FA527DF9}</Project>
+      <Name>Unity.AI.Navigation.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Vivox.Player.csproj">
-      <Project>{9AE7C133-E495-694F-D6F5-799B28497878}</Project>
+      <Project>{40BB5B81-3D7F-1A50-9109-03B2EB620688}</Project>
       <Name>Unity.Services.Vivox.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.Player.csproj">
+      <Project>{8EDC5BF9-0D1F-B0CA-A9B0-FD5105F720C6}</Project>
+      <Name>Unity.Analytics.DataPrivacy.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj">
-      <Project>{59DC5400-52E8-89BC-32C1-A6B55F0CD764}</Project>
+      <Project>{E2361649-6399-6EB9-8320-CAB80B0E9012}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.Player.csproj">
-      <Project>{318772A5-2587-D16F-5B2B-4499057A6C70}</Project>
+      <Project>{0603ADD3-633E-C4A3-B004-E221E2E83E70}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Netcode.Components.Player.csproj">
-      <Project>{27A53433-BAB1-F77B-A7A4-D8F3FED47D26}</Project>
+      <Project>{EE348322-1A61-9EC8-76A1-491BC6DD797E}</Project>
       <Name>Unity.Netcode.Components.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
-      <Project>{B07E6874-0E71-517E-C793-7B141C338DC6}</Project>
+      <Project>{C2BCCC8B-B9E3-B8D3-D673-B2E27DDA0C58}</Project>
       <Name>Unity.XR.CoreUtils.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{20F27423-0EEA-E1E0-68D1-6579029148A7}</Project>
+      <Project>{EA4DA3E7-37A7-4D44-B94D-5D14A5FDC883}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Netcode.Runtime.Player.csproj">
-      <Project>{D64B322B-0700-103F-E6CE-4C2534934E5C}</Project>
+      <Project>{8D4C383E-0931-179E-D67E-54BEC63FF6D5}</Project>
       <Name>Unity.Netcode.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Codeless.Player.csproj">
+      <Project>{FDE14E1D-7BD4-F804-8183-AB439A8869C0}</Project>
+      <Name>UnityEngine.Purchasing.Codeless.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarRenders.Player.csproj">
-      <Project>{9FBA6D3F-557D-188A-DD4E-C262D757542A}</Project>
+      <Project>{05C33E8E-8899-E3C2-DB7B-CBAB138451E3}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarRenders.Player</Name>
     </ProjectReference>
     <ProjectReference Include="VRMP.Player.csproj">
-      <Project>{4C70CF18-C8D3-014E-52C8-694BDB45F7F1}</Project>
+      <Project>{EC00BD7E-4113-49D1-0D0F-0B5DDD92AEA0}</Project>
       <Name>VRMP.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{B77D66BE-843C-04C7-A72E-0452CAB1B170}</Project>
+      <Project>{8E9A5FD8-6FEE-5E05-7177-95A7E4792386}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Animation.Rigging.Player.csproj">
-      <Project>{C38CE355-FBD6-0A33-F35F-AB1D0EDACC32}</Project>
+      <Project>{4E6A41F1-DA0A-2ADF-AAE7-E2437E38A4A5}</Project>
       <Name>Unity.Animation.Rigging.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Player.csproj">
-      <Project>{7711FC17-940C-8ED5-7CE5-A01CC8870DFE}</Project>
+      <Project>{518BEFAE-FF58-FFEF-89B0-66D13CBDFCF8}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
-      <Project>{33CB3D93-B673-F2B6-EC94-8D948BCEF4CC}</Project>
+      <Project>{ED63BA43-BA6D-F3CD-092D-3AB32C5E75B3}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Player</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarLoading.Player.csproj">
-      <Project>{A49BAAB7-897F-801E-A940-F609BEB8513E}</Project>
+      <Project>{936F1874-91CE-E233-2704-8493E42D8BAE}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarLoading.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
-      <Project>{D5BCD32D-CAFD-B3AA-AEAD-7E2A2C23473F}</Project>
+      <Project>{216BA3FF-0BA7-9D14-BBBD-C501B0E1D06E}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Samples.VisualizerSample.Player.csproj">
-      <Project>{EAC140D5-1AC1-6920-F7CC-DF5C33E0E754}</Project>
+      <Project>{7EBF007E-C528-9A29-A221-DE8874225E4F}</Project>
       <Name>Unity.XR.Hands.Samples.VisualizerSample.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{048F1223-9601-F3BC-D143-75B4A74EE40A}</Project>
+      <Project>{6756CA53-7D68-BE71-0A74-6506B6236695}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
+      <Project>{9C73181D-B46E-95DD-17EC-E9918BDC1995}</Project>
+      <Name>UnityEngine.Advertisements.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Purchasing.Common.Player.csproj">
+      <Project>{361E26B7-AA82-40AD-235E-D754234CAE14}</Project>
+      <Name>Purchasing.Common.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{6E5450AD-8C5E-F0E0-D76C-832EEA8D4C2A}</Project>
+      <Project>{DF5613B0-4750-F786-B3F7-6BE5E9F87CC5}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.QoS.Player.csproj">
-      <Project>{FE2D068F-4723-5E4D-B3E6-A6CCFFE8FEA8}</Project>
+      <Project>{ECD04197-71F6-90FE-504C-A8A393F48C89}</Project>
       <Name>Unity.Services.QoS.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Purchasing.Security.Player.csproj">
+      <Project>{F56A883C-AD1F-D875-0DDC-DA0725E3FE69}</Project>
+      <Name>UnityEngine.Purchasing.Security.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{32C594E2-C13C-C3E0-FB0D-61FB4B70D840}</Project>
+      <Project>{411A8679-53A4-CF41-0D35-1C5AF5E38ABB}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{1F17E7F4-6B63-F28D-8C75-B9B953451F83}</Project>
+      <Name>Unity.Timeline.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.Player.csproj">
-      <Project>{8AEB2124-66A1-1AD7-0E06-010138CFFB69}</Project>
+      <Project>{FD8A213C-0620-833B-3FF7-A60D18210B5D}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Oculus.Player.csproj">
-      <Project>{34AF67BF-015C-50EC-B049-2B900E6D4B39}</Project>
+      <Project>{1D505B08-9A3C-FAB2-B2E8-AED5C4B6D01C}</Project>
       <Name>Unity.XR.Oculus.Player</Name>
     </ProjectReference>
     <ProjectReference Include="glTFast.Player.csproj">
-      <Project>{3718692F-BD02-D3AA-4DFB-76FC1CB805E8}</Project>
+      <Project>{446A7258-F513-3145-2DE0-519B6F41ACC9}</Project>
       <Name>glTFast.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Authentication.Player.csproj">
-      <Project>{C6DECEE3-0BD2-7C4E-C988-38382FAED12F}</Project>
+      <Project>{6E3EE63E-80F4-0056-B3CC-74A9057E2A2F}</Project>
       <Name>Unity.Services.Authentication.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{A40EAABA-7ABD-FCC2-EEA0-E0F6F2D50B50}</Project>
+      <Project>{B583D88A-BD63-4AA5-9447-776852139CDE}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Authentication.PlayerAccounts.Player.csproj">
-      <Project>{785DC9F3-B1C9-B191-E353-A4E4BD308681}</Project>
+      <Project>{7A6835C2-F289-E281-BEA4-753BA29A87AC}</Project>
       <Name>Unity.Services.Authentication.PlayerAccounts.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Player.csproj">
-      <Project>{7ABC7A07-E3D5-AE0F-77DE-673DBE2AB23A}</Project>
+      <Project>{E4058F0C-0E04-F58D-EBE9-A7242441EE93}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Player</Name>
     </ProjectReference>
   </ItemGroup>

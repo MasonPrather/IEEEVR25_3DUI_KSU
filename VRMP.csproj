@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6C64216B-0219-6C42-B41E-53FC48109A71}</ProjectGuid>
+    <ProjectGuid>{302CE0EF-1E80-D2D8-4F41-5A2CA80B47D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VRMP</AssemblyName>
@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2022_3_45;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_INPUT_SYSTEM_POSE_CONTROL;READY_PLAYER_ME;USE_STICK_CONTROL_THUMBSTICKS;USE_FORCED_BYTE_SERIALIZATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_45;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;READY_PLAYER_ME;USE_FORCED_BYTE_SERIALIZATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Unity\Zhang\Multiplayer Social Sharing VR\Library\PackageCache\com.unity.transport@2.3.0\Analyzers\Unity.Transport.Analyzers.dll" />
+    <Analyzer Include="E:\Unity\Zhang\IEEEVR25_3DUI_KSU\Library\PackageCache\com.unity.transport@2.3.0\Analyzers\Unity.Transport.Analyzers.dll" />
     <Analyzer Include="E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\Unity\Unity Editors\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -68,7 +68,6 @@
     <Compile Include="Assets\VRMPAssets\MiniGames\MiniGameScripts\Slingshot\Slingshot.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Network\NetworkXRLever.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\UI\GreetingBoardUI.cs" />
-    <Compile Include="Assets\VRMPAssets\Tutorial\TutorialScripts\VideoPlayerTutorial.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Gameplay\Drawing\SimplePen.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Network\NetworkPlayer\XRAvatarVisuals.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Network\NetworkPlayer\XRHandPoseReplicator.cs" />
@@ -103,7 +102,6 @@
     <Compile Include="Assets\VRMPAssets\MiniGames\MiniGameScripts\Slingshot\MiniGame_Slingshot.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Helpers\ObjectReset.cs" />
     <Compile Include="Assets\VRMPAssets\MiniGames\MiniGameScripts\Climber\MiniGame_Climber.cs" />
-    <Compile Include="Assets\VRMPAssets\Tutorial\TutorialScripts\VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Network\NetworkPlayer\XRAvatarIK.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Helpers\XRKnob.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Helpers\GameObjectToggle.cs" />
@@ -127,7 +125,6 @@
     <Compile Include="Assets\VRMPAssets\MiniGames\MiniGameScripts\WhackAPig\NetworkedWhackAPig.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\UI\WorldCanvas.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Gameplay\MessageBoard\NetworkMessageBoard.cs" />
-    <Compile Include="Assets\VRMPAssets\Tutorial\TutorialScripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\UI\LobbyList\LobbyUI.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\Network\NetworkProjectileLauncher.cs" />
     <Compile Include="Assets\VRMPAssets\Scripts\UI\PlayerList\PlayerSlot.cs" />
@@ -510,6 +507,14 @@
       <HintPath>Library\PackageCache\com.unity.collections@2.2.1\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
@@ -536,6 +541,10 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1041,83 +1050,83 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Netcode.Components.csproj">
-      <Project>{E0F64FEA-E2FD-8747-7FB0-C40C2BAE8AD2}</Project>
+      <Project>{B0F3F0DF-2513-1300-5BC1-698E3C45F47F}</Project>
       <Name>Unity.Netcode.Components</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Netcode.Runtime.csproj">
-      <Project>{B42082ED-93FA-D03C-2204-2396D081BEBA}</Project>
+      <Project>{796CA6F6-1A0B-342E-3F13-BB6B66B536AA}</Project>
       <Name>Unity.Netcode.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{ECFACED3-780A-B039-F2A9-BB3FEE99AB9E}</Project>
+      <Project>{9DFB42C8-F5F3-CF89-E032-A1F81AECF8B8}</Project>
       <Name>Unity.Collections</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{08D9CA0C-EECD-8146-E8F7-680A08842A90}</Project>
+      <Project>{6D8AF2B9-1AF2-6B9B-9603-6A2C13000B4F}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Lobbies.csproj">
-      <Project>{79F017ED-D88B-C6DF-BB5E-59C8527DA90B}</Project>
+      <Project>{2C7EFCD2-B5DC-88FB-6330-70FEF7830E05}</Project>
       <Name>Unity.Services.Lobbies</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Authentication.csproj">
-      <Project>{82E9C24C-2F2F-4307-781E-A8C2A5A11B42}</Project>
+      <Project>{CB69E133-1FE5-53EE-7C0C-F909822C5E8C}</Project>
       <Name>Unity.Services.Authentication</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Relay.csproj">
-      <Project>{512AB742-7B08-C6BF-8398-1C9418A76FA4}</Project>
+      <Project>{FF96FB94-9DB1-CD99-D6F5-8C7CEB0AC26E}</Project>
       <Name>Unity.Services.Relay</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{9200FEC6-B6A0-22A6-E04A-56BC2E7882DE}</Project>
+      <Project>{F40DFAC9-0DFC-1060-A185-46B6DCCDFDA3}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{D69E1499-5854-7711-D715-75CE8BF2818B}</Project>
+      <Project>{E84A5194-5E9D-6516-1FB8-8D9157034424}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.csproj">
-      <Project>{BC21E52F-B521-6F8D-5CC3-C701F6F97185}</Project>
+      <Project>{0074797B-9A8A-AFC1-79BD-4578CBA923AB}</Project>
       <Name>Unity.XR.Hands</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{8A8F1814-52FA-1E02-010B-CC969F3ECBD3}</Project>
+      <Project>{71347D97-F2BC-FCB7-5FEB-6D3008F77061}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{8DE46494-A8D7-E54B-9A61-A48A3BA6A751}</Project>
+      <Project>{6EB99A63-89E0-E4A2-BAEE-5620F9F708CF}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{2BF4EE19-4E76-D8E1-E45F-3C6A09EECAAE}</Project>
+      <Project>{42572B57-FE07-D4E8-C077-8CE7555BED07}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{8CBA8CC3-F065-4FC5-4776-1C5DC7EAB595}</Project>
+      <Project>{6C9ED142-14B4-C2F7-D775-19944DCAEC9F}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Vivox.csproj">
-      <Project>{96B7A5CA-6CFC-23A4-8BA0-CB55CA2BA92A}</Project>
+      <Project>{0A72ACF4-C7A3-AB7B-F666-6A9BF622718F}</Project>
       <Name>Unity.Services.Vivox</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{2A037257-6DD6-0C0B-8155-D6F3A1D7A1FB}</Project>
+      <Project>{BD573848-B66B-B7C0-DB15-5491A3F38B39}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.csproj">
-      <Project>{FE14CC84-2851-454C-8D9D-2D154EB6B47B}</Project>
+      <Project>{3E437E19-A2D5-F8BC-65F9-BB02503C53B5}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{15942F5C-84D2-B062-DF13-DCC2267831E2}</Project>
+      <Project>{58F83D50-5CF8-DCCF-64AA-61829D190DC4}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{232382F0-61CA-F4F3-F386-155B00A6A255}</Project>
+      <Project>{C0D45371-A97B-DF9C-FEE9-332975551FC4}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F70982F7-3B09-1653-CB5F-666B0082BA89}</Project>
+      <Project>{B4D2ACCC-4EDA-0FC0-F410-B978778E0554}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

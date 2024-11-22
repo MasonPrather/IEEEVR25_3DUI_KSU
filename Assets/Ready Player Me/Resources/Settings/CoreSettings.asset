@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12696b20f2e49519c1b2a403a76778b, type: 3}
   m_Name: CoreSettings
   m_EditorClassIdentifier: 
-  Subdomain: socialvrfall24
-  AppId: 66fad635a37ef1a7a14011f3
+  Subdomain: ieeevr-2025-3dui-contest-ksu
+  AppId: 673fd9fb78427add00724168
   EnableLogging: 0
   EnableAnalytics: 1
   BodyType: 3
