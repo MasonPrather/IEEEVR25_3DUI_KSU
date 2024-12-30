@@ -3,7 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using XRMultiplayer;
-
+/// <summary>
+/// 
+/// Project: IEEE VR 2025 - 3D UI Contest
+/// Author: Mason Prather
+/// Title: Avatar Handler (Ready Player Me)
+/// 
+/// Description: This script is responsible for managing the loading, setup, and integration of a Ready Player Me avatar 
+///              into the VR experience. The script leverages the Ready Player Me SDK to load avatars dynamically using
+///              a URL or shortcode. It ensures proper placement and alignment within the XR Rig, setting up animations 
+///              and required components automatically.
+/// 
+/// </summary>
 public class AvatarHandler : MonoBehaviour
 {
     [SerializeField]

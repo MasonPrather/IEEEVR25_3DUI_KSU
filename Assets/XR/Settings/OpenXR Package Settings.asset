@@ -452,10 +452,10 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -6698576909631572174}
   - {fileID: 2123424781130391193}
   - {fileID: -8901900931313660571}
   - {fileID: -5307197123633945927}
+  - {fileID: -6698576909631572174}
   - {fileID: 8708900896755547445}
   - {fileID: 6156184178435921962}
   - {fileID: 3209235803406858993}
@@ -646,10 +646,10 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -2337244362816093512}
   - {fileID: -1776440421019933078}
   - {fileID: -185474913109636274}
   - {fileID: 9011612072392039164}
+  - {fileID: -2337244362816093512}
   - {fileID: -9001384425803860583}
   - {fileID: -2713585947379825467}
   - {fileID: 4980731172847938471}
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_colorSubmissionModes:
     m_List: 00000000
   m_depthSubmissionMode: 0
-  m_optimizeBufferDiscards: 0
+  m_optimizeBufferDiscards: 1
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
 --- !u!114 &3822433876069937611

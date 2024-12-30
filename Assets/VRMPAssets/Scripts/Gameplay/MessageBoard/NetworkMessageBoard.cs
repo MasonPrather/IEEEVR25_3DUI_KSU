@@ -2,7 +2,7 @@ using UnityEngine;
 using Unity.Netcode;
 using Unity.Collections;
 using System;
-using UnityEngine.XR.Interaction.Toolkit.Samples.SpatialKeyboard;
+//using UnityEngine.XR.Interaction.Toolkit.Samples.SpatialKeyboard;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -65,7 +65,7 @@ namespace XRMultiplayer
         // Called from XRIKeyboardDisplay
         public void ToggleKeyboardOpen(bool toggle)
         {
-            GlobalNonNativeKeyboard.instance.keyboard.closeOnSubmit = !toggle;
+            //GlobalNonNativeKeyboard.instance.keyboard.closeOnSubmit = !toggle;
         }
 
         /// <inheritdoc/>
