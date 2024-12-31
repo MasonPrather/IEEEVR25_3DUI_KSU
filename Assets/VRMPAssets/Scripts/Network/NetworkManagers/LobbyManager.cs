@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.Services.Lobbies.Models;
 using Unity.Services.Lobbies;
@@ -10,6 +10,7 @@ using Unity.Netcode.Transports.UTP;
 using Unity.XR.CoreUtils.Bindings.Variables;
 using Unity.Services.Authentication;
 using UnityEngine.SceneManagement;
+using static UnityEditor.PhysicsVisualizationSettings;
 
 namespace XRMultiplayer
 {
@@ -60,7 +61,6 @@ namespace XRMultiplayer
         readonly static BindableVariable<string> m_Status = new("");
 
         const string k_DebugPrepend = "<color=#EC0CFA>[Lobby Manager]</color> ";
-
 
         /// <summary>
         /// See <see cref="MonoBehaviour"/>.
@@ -196,7 +196,6 @@ namespace XRMultiplayer
                     IsPrivate = isPrivate,
                 };
 
-
                 m_Status.Value = "Creating Lobby";
                 // Creates the Lobby with the specified max players and lobby options. Currently just naming "General Lobby"
                 string lobbyName = string.IsNullOrEmpty(roomName) ? $"{XRINetworkGameManager.LocalPlayerName.Value}'s Room" : $"{roomName}";
@@ -244,15 +243,15 @@ namespace XRMultiplayer
             QuickJoinLobbyOptions options = new QuickJoinLobbyOptions();
 
             // Create Filter Option to prevent showing any application versions that are not the same.
-            QueryFilter applicationVersionIdFilter = new QueryFilter(field: QueryFilter.FieldOptions.S1, value: Application.version, QueryFilter.OpOptions.EQ);
+            Unity.Services.Lobbies.Models.QueryFilter applicationVersionIdFilter = new Unity.Services.Lobbies.Models.QueryFilter(field: Unity.Services.Lobbies.Models.QueryFilter.FieldOptions.S1, value: Application.version, Unity.Services.Lobbies.Models.QueryFilter.OpOptions.EQ);
 
             // Create Filter Option for different scenes.
-            QueryFilter sceneNameFilter = new QueryFilter(field: QueryFilter.FieldOptions.S2, value: SceneManager.GetActiveScene().name, QueryFilter.OpOptions.EQ);
+            Unity.Services.Lobbies.Models.QueryFilter sceneNameFilter = new Unity.Services.Lobbies.Models.QueryFilter(field: Unity.Services.Lobbies.Models.QueryFilter.FieldOptions.S2, value: SceneManager.GetActiveScene().name, Unity.Services.Lobbies.Models.QueryFilter.OpOptions.EQ);
 
             // Create Filter Option for hiding editor created rooms from builds.
-            QueryFilter editorFilter = new QueryFilter(field: QueryFilter.FieldOptions.S3, value: hideEditorFromLobby.ToString(), QueryFilter.OpOptions.EQ);
+            Unity.Services.Lobbies.Models.QueryFilter editorFilter = new Unity.Services.Lobbies.Models.QueryFilter(field: Unity.Services.Lobbies.Models.QueryFilter.FieldOptions.S3, value: hideEditorFromLobby.ToString(), Unity.Services.Lobbies.Models.QueryFilter.OpOptions.EQ);
 
-            options.Filter = new List<QueryFilter> { applicationVersionIdFilter, sceneNameFilter, editorFilter };
+            options.Filter = new List<Unity.Services.Lobbies.Models.QueryFilter> { applicationVersionIdFilter, sceneNameFilter, editorFilter };
 
             return options;
         }
@@ -442,7 +441,6 @@ namespace XRMultiplayer
 
             return false;
         }
-
 
         public static async Task<QueryResponse> GetLobbiesAsync()
         {
