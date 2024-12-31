@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/PlayerPositionManager.cs" />
+    <Compile Include="Assets/Scripts/RelayManager.cs" />
+    <Compile Include="Assets/Scripts/UIManager.cs" />
     <Compile Include="Assets/Scripts/AvatarHandler.cs" />
     <Compile Include="Assets/Scripts/M_XRAvatarController.cs" />
   </ItemGroup>

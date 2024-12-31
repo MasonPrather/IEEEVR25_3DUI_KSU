@@ -19,7 +19,7 @@ public class PlayerPositionManager : MonoBehaviour
     [SerializeField] private GameObject player1;
     [SerializeField] private GameObject player2;
 
-    //[SerializeField] private CanvasGroup vignetteEffect;
+    [SerializeField] private CanvasGroup vignetteEffect;
 
     private float vignetteFadeDuration = 1.0f;
 

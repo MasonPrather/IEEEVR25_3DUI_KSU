@@ -37,7 +37,7 @@ public class M_XRAvatarController : MonoBehaviour
     [SerializeField] private Transform ikHead;
     [SerializeField] private Vector3 headBodyOffset;
 
-    [SerializeField] private Animator avatarAnimator;
+    //[SerializeField] private Animator avatarAnimator;
     [SerializeField] private float playerHeight = 1.8f;
     [SerializeField] private Transform vrCamera;
 
@@ -81,7 +81,7 @@ public class M_XRAvatarController : MonoBehaviour
 
         // Update movement speed for animations
         float speed = (transform.position - lastPosition).magnitude / Time.deltaTime;
-        avatarAnimator.SetFloat("Speed", speed);
+        //avatarAnimator.SetFloat("Speed", speed);
 
         lastPosition = transform.position;
     }
@@ -110,7 +110,7 @@ public class M_XRAvatarController : MonoBehaviour
 
     private void AdjustAvatarScale()
     {
-        float scaleMultiplier = playerHeight / 1.8f;
-        transform.localScale = Vector3.one * scaleMultiplier;
+        //float scaleMultiplier = playerHeight / 1.8f;
+        //transform.localScale = Vector3.one * scaleMultiplier;
     }
 }
