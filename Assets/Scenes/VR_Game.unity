@@ -455,8 +455,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1594,8 +1594,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839457609}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_LocalPosition: {x: 0, y: 0, z: 4.5}
+  m_LocalScale: {x: 0.0025, y: 0.0025, z: 0.0025}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 703983266}
@@ -2422,8 +2422,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc9ddf205bd8784da3ae5681e15741d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableLogging: 0
-  transport: {fileID: 0}
+  enableLogging: 1
+  transport: {fileID: 2613880095275616241}
   maxPlayers: 4
 --- !u!114 &8647664954613385734
 MonoBehaviour:
@@ -2437,7 +2437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bf6729945c14d278895961affe46fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joinCreateButton: {fileID: 114779865}
+  enterGameButton: {fileID: 114779865}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
