@@ -2,17 +2,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using Unity.Services.Lobbies.Models;
 using Unity.Services.Lobbies;
+using TMPro;
 using System.Threading.Tasks;
 
 public class MultiplayerLobbyUIManager : MonoBehaviour
 {
     [Header("UI References")]
-    [SerializeField] private Text statusText; // Text to display lobby status
+    [SerializeField] private TMP_Text statusText; // Text to display lobby status
     [SerializeField] private Button startButton; // Button to start the game
 
-    [Header("Lobby Panel Prefab")]
-    public GameObject lobbyPanelPrefab; // Drag your LobbyPanel prefab here in the Inspector.
-    private GameObject currentLobbyPanel;
+    [Header("Script References")]
+    [SerializeField] private PlayerPositionManager teleporter;
 
     private Lobby connectedLobby;
     private bool isHost;
@@ -39,27 +39,6 @@ public class MultiplayerLobbyUIManager : MonoBehaviour
         else
         {
             Debug.LogError("Failed to setup lobby.");
-        }
-    }
-
-    public void ShowLobbyPanel()
-    {
-        // Instantiate the LobbyPanel prefab if it doesn't already exist.
-        if (currentLobbyPanel == null)
-        {
-            currentLobbyPanel = Instantiate(lobbyPanelPrefab, transform);
-        }
-
-        // Ensure it is active and positioned correctly.
-        currentLobbyPanel.SetActive(true);
-    }
-
-    public void HideLobbyPanel()
-    {
-        // Deactivate the lobby panel but don't destroy it (optional).
-        if (currentLobbyPanel != null)
-        {
-            currentLobbyPanel.SetActive(false);
         }
     }
 
@@ -104,8 +83,8 @@ public class MultiplayerLobbyUIManager : MonoBehaviour
     private void OnStartButtonPressed()
     {
         Debug.Log("starting level");
-
-        // Add your level-loading logic here (e.g., SceneManager.LoadScene())
+        // Teleport both players to start area
+        teleporter.TeleportPlayersToStart();
     }
 
     private void OnDestroy()

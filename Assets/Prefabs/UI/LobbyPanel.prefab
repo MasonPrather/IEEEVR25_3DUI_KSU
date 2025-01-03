@@ -427,6 +427,7 @@ GameObject:
   - component: {fileID: 1621843458181238133}
   - component: {fileID: 2352590569721086794}
   - component: {fileID: 261336000651498001}
+  - component: {fileID: 5655748199479939829}
   m_Layer: 5
   m_Name: LobbyPanel
   m_TagString: Untagged
@@ -519,3 +520,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
+--- !u!114 &5655748199479939829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5954783679508603710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c989b7b62096148d9b52662502f8b700, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statusText: {fileID: 1445995084573863288}
+  startButton: {fileID: 355328455479668954}
+  teleporter: {fileID: 0}

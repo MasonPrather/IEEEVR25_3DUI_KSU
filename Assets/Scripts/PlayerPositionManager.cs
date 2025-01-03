@@ -21,7 +21,22 @@ public class PlayerPositionManager : MonoBehaviour
 
     [SerializeField] private CanvasGroup vignetteEffect;
 
+    [SerializeField] public Transform startPosition1;
+    [SerializeField] public Transform startPosition2;
+
     private float vignetteFadeDuration = 1.0f;
+
+    public void TeleportPlayersToStart()
+    {
+        if (!IsHost)
+        {
+            Debug.LogWarning("Teleportation can only be triggered by the host.");
+            return;
+        }
+
+        StartCoroutine(TeleportPlayersWithEffect(startPosition1, startPosition2));
+    }
+
 
     /// <summary>
     /// Teleports both players to specified locations.
@@ -50,7 +65,7 @@ public class PlayerPositionManager : MonoBehaviour
         // Trigger vignette fade-in
         if (vignetteEffect != null)
         {
-            StartCoroutine(FadeVignette(1));
+            //StartCoroutine(FadeVignette(1));
             yield return new WaitForSeconds(vignetteFadeDuration);
         }
 
@@ -64,7 +79,7 @@ public class PlayerPositionManager : MonoBehaviour
         // Trigger vignette fade-out
         if (vignetteEffect != null)
         {
-            StartCoroutine(FadeVignette(0));
+            //StartCoroutine(FadeVignette(0));
         }
     }
 

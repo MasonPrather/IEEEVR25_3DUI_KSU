@@ -2425,7 +2425,7 @@ MonoBehaviour:
   enableLogging: 1
   transport: {fileID: 2613880095275616241}
   maxPlayers: 4
-  lobbyUIPrefab: {fileID: 0}
+  lobbyUIPrefab: {fileID: 5954783679508603710, guid: ffba100af4a004115bb78540edd3e155, type: 3}
 --- !u!114 &8647664954613385734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,7 +2439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterGameButton: {fileID: 114779865}
-  lobbyPanelPrefab: {fileID: 0}
+  lobbyPanelPrefab: {fileID: 5954783679508603710, guid: ffba100af4a004115bb78540edd3e155, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
