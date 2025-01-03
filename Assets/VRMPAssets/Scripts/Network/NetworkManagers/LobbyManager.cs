@@ -10,7 +10,9 @@ using Unity.Netcode.Transports.UTP;
 using Unity.XR.CoreUtils.Bindings.Variables;
 using Unity.Services.Authentication;
 using UnityEngine.SceneManagement;
+#if UNITY_EDITOR
 using static UnityEditor.PhysicsVisualizationSettings;
+#endif
 
 namespace XRMultiplayer
 {

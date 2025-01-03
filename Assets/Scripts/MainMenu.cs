@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private Button enterGameButton;
-
+    [SerializeField] public GameObject lobbyPanelPrefab;
     private void Start()
     {
         enterGameButton.onClick.AddListener(JoinOrCreateLobby);
@@ -17,6 +17,8 @@ public class MainMenu : MonoBehaviour
         if (lobbyManager != null)
         {
             await lobbyManager.JoinOrCreateLobby();
+            Instantiate(lobbyPanelPrefab);
+            Destroy(gameObject);
         }
         else
         {

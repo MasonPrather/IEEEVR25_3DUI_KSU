@@ -40,6 +40,10 @@ public class MultiplayerManager : MonoBehaviour
     private Lobby currentLobby;
     private Coroutine heartbeatRoutine;
 
+    [SerializeField] private GameObject lobbyUIPrefab;
+    private GameObject activeLobbyUI;
+
+
     void Awake()
     {
         // Ensure UnityTransport is set
@@ -202,6 +206,25 @@ public class MultiplayerManager : MonoBehaviour
             {
                 currentLobby = null;
             }
+        }
+    }
+
+    public async void OnLobbyCreatedOrJoined(Lobby connectedLobby, bool isHost)
+    {
+        // Instantiate the UI Prefab
+        activeLobbyUI = Instantiate(lobbyUIPrefab);
+        var uiManager = activeLobbyUI.GetComponent<MultiplayerLobbyUIManager>();
+
+        // Setup the UI with the current lobby and role (host or not)
+        await uiManager.SetupLobby(isHost, connectedLobby);
+    }
+
+    public void OnLobbyExited()
+    {
+        // Cleanup the UI when the lobby is exited
+        if (activeLobbyUI != null)
+        {
+            Destroy(activeLobbyUI);
         }
     }
 
