@@ -1,0 +1,5 @@
+/Users/masonprather/Documents/Unity/IEEEVR25_3DUI/IEEEVR25_3DUI_KSU/.utmp/RelWithDebInfo/5k642ldk/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/masonprather/Documents/Unity/IEEEVR25_3DUI/IEEEVR25_3DUI_KSU/.utmp/RelWithDebInfo/5k642ldk/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/masonprather/Documents/Unity/IEEEVR25_3DUI/IEEEVR25_3DUI_KSU/.utmp/RelWithDebInfo/5k642ldk/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/masonprather/Documents/Unity/IEEEVR25_3DUI/IEEEVR25_3DUI_KSU/.utmp/RelWithDebInfo/5k642ldk/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/masonprather/Documents/Unity/IEEEVR25_3DUI/IEEEVR25_3DUI_KSU/.utmp/RelWithDebInfo/5k642ldk/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
