@@ -295,7 +295,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114779866}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8647664954613385734}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: JoinOrCreateLobby
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &114779866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,6 +383,8 @@ MonoBehaviour:
   player1: {fileID: 1438804377}
   player2: {fileID: 0}
   vignetteEffect: {fileID: 0}
+  startPosition1: {fileID: 0}
+  startPosition2: {fileID: 0}
 --- !u!1 &207406198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,7 +2453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterGameButton: {fileID: 114779865}
-  lobbyPanelPrefab: {fileID: 5954783679508603710, guid: ffba100af4a004115bb78540edd3e155, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
